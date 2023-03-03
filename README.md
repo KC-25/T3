@@ -10,10 +10,7 @@ What is the project?
 Basically a find the mistakes in a medical file to sort healthy patients and infected patients. 
 
 How will it function?
-<<<<<<< HEAD
-=======
 You need to look at doctors charts selecting yes or no if they are healthy to sort out the infected patients.
->>>>>>> 7512ca589cb2b98048f9db93ad8d355ba0740f04
 
 What code will be used?
 HTML, CSS, JS
