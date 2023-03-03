@@ -11,7 +11,6 @@ Basically a find the mistakes in a medical file to sort healthy patients and inf
 
 How will it function?
 
-
 What code will be used?
 
 What are the tasks that we will complete or be in charge of?
