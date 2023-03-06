@@ -25,3 +25,6 @@ HTML, JS, CSS. this is the order we are chosing to complete everything.
 <!-- http://meyerweb.com/eric/tools/css/reset/ 
 v2.0 | 20110126
 License: none (public domain) -->
+
+Audio tags
+https://www.w3schools.com/tags/tag_audio.asp#:~:text=The%20tag%20is%20used,the%20first%20source%20it%20supports.
