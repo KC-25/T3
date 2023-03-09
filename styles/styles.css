@@ -2,3 +2,18 @@
 body{
     background-color: red;
 }
+
+th{
+    border: solid black 1px;
+    margin: 0px;
+    width: 10%;
+}
+td{
+    border: solid black 1px;
+    margin: 0px;
+    text-align: center;
+}
+table{
+    border-spacing: 0px;
+    margin-bottom: 1%;
+}
