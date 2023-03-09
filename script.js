@@ -1,6 +1,6 @@
 'use strict'
 
-function DataSheet(Name, minHeart, maxHeart, minBlood, maxBlood, minTemp, maxTemp, minAcidity, maxAcidity){
+function DataSheet(Name, minHeart, maxHeart, minBlood, maxBlood, minTemp, maxTemp, BodAnom){
 
     this.Name = Name;
 
@@ -16,10 +16,29 @@ function DataSheet(Name, minHeart, maxHeart, minBlood, maxBlood, minTemp, maxTem
 
     this.maxTemp = maxTemp;
 
-    this.minAcidity = minAcidity;
+    this.BodAnom = BodAnom;
 
-    this.maxAcidity = maxAcidity;
+    this.HeartRate = []
+
+    this.
 
     DataSheet.all.push(this);
 }
 
+DataSheet.prototype.calcHeartRate = function(){
+    for(let i = 0; i++){
+
+        this.HeartRate.push(random(this.minHeart, this.maxHeart));
+
+    }
+};
+
+DataSheet.prototype.calcBloodPressure = function(){
+    this.calcHeartRate();
+
+    for(let i = 0; i++){
+        
+        this.BloodPressure.push(random(this.minBlood, this.maxBlood));
+
+    }
+}
