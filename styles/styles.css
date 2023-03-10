@@ -4,16 +4,20 @@ body{
 }
 
 th{
-    border: solid black 1px;
-    margin: 0px;
-    width: 10%;
+    border: solid black 2px;
 }
 td{
-    border: solid black 1px;
-    margin: 0px;
+    border: solid black 2px;
     text-align: center;
 }
 table{
+    margin: auto;
     border-spacing: 0px;
     margin-bottom: 1%;
+    border: black solid 2px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
