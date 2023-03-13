@@ -1,6 +1,7 @@
 
 body{
-    background-color: red;
+    background-color: slategray;
+    margin-top: 2%;
 }
 
 th{
@@ -11,13 +12,20 @@ td{
     text-align: center;
 }
 table{
+    background-color: white;
     margin: auto;
     border-spacing: 0px;
     margin-bottom: 1%;
     border: black solid 2px;
 }
 h2{
+
     display: flex;
     justify-content: center;
     font-weight: bold;
+    
+}
+
+audio{
+    margin-left: 2%;
 }
