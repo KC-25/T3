@@ -1,7 +1,7 @@
 'use strict'
 console.log('hello world')
 
-const TableElement = document.getElementById('E');
+const TableElement = document.getElementById("yup");
 
 function DataSheet(Name, minHeart, maxHeart, minBlood, maxBlood, minTemp, maxTemp, BodAnom){
 
@@ -56,8 +56,8 @@ DataSheet.prototype.calcTemperature = function(){
 
 DataSheet.prototype.render = function(){
     this.calcHeartRate();
-    this.calcBloodPressure();
-    this.calcTemperature();
+    // this.calcBloodPressure();
+    // this.calcTemperature();
 
     const tableRow = document.createElement('tr');
 
@@ -65,7 +65,9 @@ DataSheet.prototype.render = function(){
 
     tableDataElement.textContent = this.Name;
 
-    tableRow.appendChild(tableDataElement)
+    tableRow.appendChild(tableDataElement);
+
+    tableRow.appendChild(TableElement);
 
     for(let i = 0; i <= 10;  i++){
         tableDataElement = document.createElement('td');
@@ -74,6 +76,8 @@ DataSheet.prototype.render = function(){
 
         tableRow.appendChild(tableDataElement);
     }
+
+    TableElement.appendChild(tableRow)
 };
 
 DataSheet.all = [];
