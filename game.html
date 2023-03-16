@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel ="stylesheet" href = "/styles/reset.css">
-    <link rel ="stylesheet" href = "/styles/styles.css">
+    <link rel ="stylesheet" href = "/styles/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
     <title>Game</title>
 </head>
 <body>
@@ -14,6 +17,9 @@
         <source src="/music/tomp3.cc - The Walking Dead Original Soundtrack   Theme Song.mp3" type="audio/mpeg">
       </audio>
 
+      <h1>* * * NOTICE * * *</h1>
+      <p>You have to use your knolage to figure out who is infected or not. So there isn't a spread sheet of some sort to help you tell who isj infected or not. You may have to look around if you cannot remember. (google)</p>
+      <p>To win you have to get all the patients sorted correctly.</p>
     <h2>Infected Patient</h2>
     <table>
         <thead>
@@ -78,8 +84,9 @@
     </tfoot>
     </table>
 
-    <table id="E"></table>
+    <!-- <table id="E"></table> -->
 
+    <h2>Patient #1</h2>
     <table>
         <thead>
         <tr>
@@ -94,15 +101,15 @@
         </tr>
         <tr>
             <td>Heart Rate</td>
-            <td></td>
+            <td id="heartKW"></td>
         </tr>
         <tr>
             <td>Blood Pressure</td>
-            <td></td>
+            <td id="bloodKW"></td>
         </tr>
         <tr>
             <td>Temprature</td>
-            <td></td>
+            <td id="tempKW"></td>
         </tr>
     </tbody>
     <tfoot>
@@ -110,6 +117,14 @@
         <td>Receding Hair Line</td>
     </tfoot>
     </table>
+    <p>Is the patient infected?</p>
+
+<section>
+    <button class="No">Yes</button>
+    <button class="Yes">No</button>
+</section>
+
+    <h2>Patient #2</h2>
 
     <table>
         <thead>
@@ -125,54 +140,29 @@
         </tr>
         <tr>
             <td>Heart Rate</td>
-            <td></td>
+            <td id="heartKD"></td>
         </tr>
         <tr>
             <td>Blood Pressure</td>
-            <td></td>
+            <td id="bloodKD"></td>
         </tr>
         <tr>
             <td>Temprature</td>
-            <td></td>
+            <td id="tempKD"></td>
         </tr>
     </tbody>
     <tfoot>
         <td>Body Anomaly</td>
-        <td>Bloches</td>
+        <td>Absesses</td>
     </tfoot>
     </table>
+    <p>Is the patient infected?</p>
 
-    <table>
-        <thead>
-        <tr>
-            <th>Data Sheet</th>
-            <th>Stats</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Patient's Name</td>
-            <td>Mariabella Edwena</td>
-        </tr>
-        <tr>
-            <td>Heart Rate</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Blood Pressure</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Temprature</td>
-            <td></td>
-        </tr>
-    </tbody>
-    <tfoot>
-        <td>Body Anomaly</td>
-        <td>Skaly Skin</td>
-    </tfoot>
-    </table>
-
+    <section>
+    <button class="Yes">Yes</button>
+    <button class="No">No</button>
+</section>
+    <h2>Patient #3</h2>
     <table>
         <thead>
         <tr>
@@ -187,24 +177,65 @@
         </tr>
         <tr>
             <td>Heart Rate</td>
-            <td></td>
+            <td id="heartTH"></td>
         </tr>
         <tr>
             <td>Blood Pressure</td>
-            <td></td>
+            <td id="bloodTH"></td>
         </tr>
         <tr>
             <td>Temprature</td>
-            <td></td>
+            <td id="tempTH"></td>
         </tr>
     </tbody>
     <tfoot>
         <td>Body Anomaly</td>
-        <td>Yellow Selcra</td>
+        <td>Grinch Eyes</td>
     </tfoot>
     </table>
-
-    
+    <p>Is the patient infected?</p>
+    <section>
+    <button class="Yes">Yes</button>
+    <button class="No">No</button>
+    </section>
+   
+    <h2>Patient #4</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Data Sheet</th>
+            <th>Stats</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Patient's Name</td>
+            <td>Mariabella Edwena</td>
+        </tr>
+        <tr>
+            <td>Heart Rate</td>
+            <td id="heartME"></td>
+        </tr>
+        <tr>
+            <td>Blood Pressure</td>
+            <td id="bloodME"></td>
+        </tr>
+        <tr>
+            <td>Temprature</td>
+            <td id="tempME"></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <td>Body Anomaly</td>
+        <td>Skaly Skin</td>
+    </tfoot>
+    </table>
+    <p>Is the patient infected?</p>
+    <section>
+    <button class="No">Yes</button>
+    <button class="Yes">No</button>
+</section>
+     
 </body>
 <script src="/script.js"></script>
 </html>
