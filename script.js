@@ -1,8 +1,6 @@
 // 'use strict'
 // console.log('hello world')
 
-// const TableElement = document.getElementById('E');
-
 // function DataSheet(Name, minHeart, maxHeart, minBlood, maxBlood, minTemp, maxTemp, BodAnom){
 
 //     this.Name = Name;
@@ -59,7 +57,6 @@
 //     this.calcBloodPressure();
 //     this.calcTemperature();
 
-//     const tableRow = document.createElement('tr');
 
 //     let tableDataElement = document.createElement('td');
 
@@ -67,8 +64,6 @@
 
 //     tableRow.appendChild(tableDataElement)
 
-//     for(let i = 0; i <= 10;  i++){
-//         tableDataElement = document.createElement('td');
 
 //         tableDataElement.textContent = this.HeartRate[i];
 
@@ -76,7 +71,7 @@
 //     }
 // };
 
-// DataSheet.all = [];
+
 
 // new DataSheet('Harry', 64, 72, 90, 119, 90, 96, 'grey skin');
 
