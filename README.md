@@ -16,7 +16,7 @@ What code will be used?
 HTML, CSS, JS
 
 What are the tasks that we will complete or be in charge of?
-We will both work on the JS of the project, Cain will do mostly CSS, Kierra is assigned with the HTML.
+Cain and Kierra will  work on the JS for the project, Kierra will do the CSS and the HTML.
 
 How will we complete the tasks listed above?
 HTML, JS, CSS. this is the order we are chosing to complete everything.
@@ -28,3 +28,9 @@ License: none (public domain) -->
 
 Audio tags
 https://www.w3schools.com/tags/tag_audio.asp#:~:text=The%20tag%20is%20used,the%20first%20source%20it%20supports.
+
+Game Buttons (on phone)
+https://chat.openai.com/chat/ab5a5f20-891d-436a-b1a7-d162f1293148
+
+Random Number Generator (on phone)
+https://chat.openai.com/chat/d35ecb42-8563-46ea-a72c-226834e76983

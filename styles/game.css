@@ -1,0 +1,88 @@
+th{
+    border: solid black 2px;
+}
+td{
+    border: solid black 2px;
+    text-align: center;
+}
+table{
+    background-image:url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMDI1OTE1LWltYWdlLWpvYjY1NF8xLWwwdWJ1NTV3LmpwZw.jpg?s=IutMm-s0ZS7dJatDYNtTOmCKE6CtAIRj08nZTQrPmCg);
+    margin: auto;
+    border-spacing: 0px;
+    margin-bottom: 1%;
+    border: black solid 2px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: xxx-large;
+}
+
+
+h2{
+
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: xxx-large;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 1%;
+
+    
+}
+
+audio{
+    margin-left: 2%;
+}
+
+body{
+    background-color: darkslategrey;
+    margin-top: 2%;
+    margin-bottom:5%;
+}
+
+h1 {
+    background-image:url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMDI1OTE1LWltYWdlLWpvYjY1NF8xLWwwdWJ1NTV3LmpwZw.jpg?s=IutMm-s0ZS7dJatDYNtTOmCKE6CtAIRj08nZTQrPmCg);
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    margin-right: 40%;
+    margin-left: 40%;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: xx-large;
+    margin-bottom: 1%;
+    color: rgb(255, 0, 0);
+
+}
+
+p {
+    background-image:url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcHgxMDI1OTE1LWltYWdlLWpvYjY1NF8xLWwwdWJ1NTV3LmpwZw.jpg?s=IutMm-s0ZS7dJatDYNtTOmCKE6CtAIRj08nZTQrPmCg);
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    margin-right: 35%;
+    margin-left: 35%;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: x-large;
+    margin-bottom: 1%;
+
+}
+button{
+    margin-top: 2%;
+    font-size: x-large;
+    border-radius: 25px;
+    padding: .5%;
+    padding-left:.75%;
+    padding-right:.75%;
+    background-color: black;
+    color: red;
+    border: red solid 3px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+section{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
